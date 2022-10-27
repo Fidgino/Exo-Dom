@@ -11,3 +11,6 @@ box.addEventListener('input', function() {
         compteur.style.color = 'red';
     }
 });
+
+
+//Fini
