@@ -1,0 +1,13 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.modif {
+    width: 55vw;
+    border: 6px  solid teal;
+    border: dashed teal;
+    padding: 10px 10px 10px 10px;
+    background-color: rosybrown;
+    color: white;
+    margin-bottom: 20px;
+}
