@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+#squareMenu  {
+    width: 6vw;
+    height: 9vh;
+    font-size: 400%;
+    background-color: #9b3b47;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 13px;
+    flex-direction: column;
+    position: absolute;
+    left: 1%;
+}
+#barOne {
+    height: 8.5px;
+    background-color: #fdffcb;
+    width: 70%;
+}
+#barTwo {
+    height: 8.5px;
+    background-color: #fdffcb;
+    width: 70%;
+}
+#barThree {
+    height: 8.5px;
+    background-color: #fdffcb;
+    width: 70%;
+}
+.orange {
+    height: 100vh;
+    width: 20vw;
+    background-color: #f27561;
+    position: absolute;
+    left: -19%;
+}
+.open {
+    left: 0;
+}
+body {
+    display: flex;
+}
