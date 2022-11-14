@@ -7,8 +7,11 @@ let orange = document.querySelector('.orange');
 button.addEventListener('click', function() {
     orange.classList.toggle('open');
     button.classList.toggle('openButton');
-    barThree.classList.toggle('firstAnimation');
-    barTwo.classList.toggle('vanish');
-    barOne.classList.toggle('vanish');
+    barOne.classList.toggle('barOneA');
+    barThree.classList.toggle('barThreeA');
+    setTimeout(() => {
+        barOne.classList.toggle('vanish');
+        barTwo.classList.toggle('rotateBarTwo');
+        barThree.classList.toggle('rotateBarThree')
+      }, 500)
 });
-console.log(button);

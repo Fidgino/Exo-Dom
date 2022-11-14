@@ -18,19 +18,28 @@
     transition: 0.5s;
 }
 .barOne {
+    position: absolute;
+    opacity: 1;
+    top: 20%;
     height: 8.5px;
     background-color: #fdffcb;
     width: 70%;
+    transition: 0.5s;
 }
 .barTwo {
+    position: absolute;
     height: 8.5px;
     background-color: #fdffcb;
     width: 70%;
+    transition: 0.5s;
 }
 .barThree {
+    position: absolute;
+    bottom: 20%;
     height: 8.5px;
     background-color: #fdffcb;
     width: 70%;
+    transition: 0.5s;
 }
 .orange {
     height: 100vh;
@@ -48,12 +57,24 @@
 }
 .openButton {
     left: 14.3%;
-    gap: 0;
+}
+.barOneA {
+    top: 35%;
+}
+.barThreeA {
+    bottom: 35.4%;
 }
 .vanish {
-    display: none;
-    transition: 1s;
+    transition: 0.5s;
     opacity: 0;
+}
+.rotateBarTwo {
+    transform: rotate(45deg);
+    top: 39px;
+}
+.rotateBarThree {
+    transform: rotate(-45deg);
+    top: 39px;
 }
 body {
     display: flex;
