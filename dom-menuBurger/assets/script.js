@@ -1,6 +1,14 @@
-let button = document.querySelector('#squareMenu');
+let button = document.querySelector('.squareMenu');
+let barOne = document.querySelector('.barOne');
+let barTwo = document.querySelector('.barTwo');
+let barThree = document.querySelector('.barThree');
 let orange = document.querySelector('.orange');
-console.log(orange);
+
 button.addEventListener('click', function() {
-    orange.classList.toggle = 'open'
+    orange.classList.toggle('open');
+    button.classList.toggle('openButton');
+    barThree.classList.toggle('firstAnimation');
+    barTwo.classList.toggle('vanish');
+    barOne.classList.toggle('vanish');
 });
+console.log(button);

@@ -2,8 +2,8 @@
     padding: 0;
     margin: 0;
 }
-#squareMenu  {
-    width: 6vw;
+.squareMenu  {
+    width: 5vw;
     height: 9vh;
     font-size: 400%;
     background-color: #9b3b47;
@@ -12,20 +12,22 @@
     justify-content: center;
     gap: 13px;
     flex-direction: column;
-    position: absolute;
+    position: relative;
     left: 1%;
+    margin-top: 0.5%;
+    transition: 0.5s;
 }
-#barOne {
+.barOne {
     height: 8.5px;
     background-color: #fdffcb;
     width: 70%;
 }
-#barTwo {
+.barTwo {
     height: 8.5px;
     background-color: #fdffcb;
     width: 70%;
 }
-#barThree {
+.barThree {
     height: 8.5px;
     background-color: #fdffcb;
     width: 70%;
@@ -36,9 +38,22 @@
     background-color: #f27561;
     position: absolute;
     left: -19%;
+    transition: 0.5s;
+}
+.firstAnimation {
+    margin-top: 20%;
 }
 .open {
-    left: 0;
+    left: 0%;
+}
+.openButton {
+    left: 14.3%;
+    gap: 0;
+}
+.vanish {
+    display: none;
+    transition: 1s;
+    opacity: 0;
 }
 body {
     display: flex;
